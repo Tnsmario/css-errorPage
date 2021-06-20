@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/error.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+.big-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.4;
+  padding: 15rem;
+  font-family: sans-serif;
+}
+span {
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+}
+.big {
+  font-weight: normal;
+  font-size: 10rem;
+  font-family: "PT Serif", serif;
+}
+button {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 3rem;
+  background-color: #687980;
+  border: solid 1px transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+}
+
+button:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
